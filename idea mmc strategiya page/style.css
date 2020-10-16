@@ -1,0 +1,73 @@
+body, html{
+	height: 100%;
+	background-image: url("./images/background.jpg") ;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: 100% 100%;
+	background-color:#388E3C;
+		
+}
+h2{
+	color: #fff;
+}
+.menu{
+	width: 600px;
+	margin: auto;
+	padding: 0px 100% 0px 15%;
+	font-size: 25px;
+}
+.tree{
+	list-style: none;
+	padding-left: 100px;
+	position: relative;
+	color: #fff;
+}
+.tree:before{ 
+	content: '';
+	width: 1px;
+	background: #fff;
+	top: 0;
+	bottom:7px;
+	left:0;
+	position: absolute;
+}
+.tree li{ 
+	position: relative;
+	margin-top:10px;
+}
+.tree li:hover, .tree li:focus{
+	color: yellow;
+	cursor: pointer;
+} 
+.tree li:before{ 
+	content: '';
+	width: 0px;
+	height: 1px;
+	background: #fff;
+	top: 12px;
+	left:-20px;
+	position: absolute;
+}
+.tree .tree{display: none;}
+
+.hedef {
+	padding-left: 5px;
+}
+.yk1 {
+	padding-left: 5px;
+	white-space: nowrap; 
+    width: 200px; 
+    overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline;
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+.button{
+	width: 20px;
+	height: 20px;
+}
+p{
+	display: inline;
+}
